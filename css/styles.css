@@ -51,11 +51,15 @@ body {
     padding: 10px;
 }
 
+.search-bar input {
+    outline: none;
+}
+
 .header .search-bar button {
-    background-color: #333;
+    background-color: #000;
     color: white;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 4px;
 }
 
@@ -72,6 +76,11 @@ body {
     color: white;
     padding: 10px 20px;
     display: inline-block;
+}
+
+.nav-bar a:hover {
+    color: #f8b400;
+    text-decoration: none;
 }
 
 .hero-section {

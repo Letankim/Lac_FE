@@ -7,7 +7,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/products.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                     <button><i class="fas fa-search"></i></button>
                 </div>
                 <div class="account-cart d-flex align-items-center">
-                    <a href="./html/login.html"><i class="fas fa-user"></i> Tài khoản</a>
+                    <a href="./login.html"><i class="fas fa-user"></i> Tài khoản</a>
                     <a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
                 </div>
             </div>
@@ -37,99 +38,111 @@
     <!-- Navigation -->
     <nav class="nav-bar">
         <div class="container d-flex justify-content-center">
-            <a href="#">VỀ CHÚNG TÔI</a>
-            <a href="./html/products.html">SẢN PHẨM</a>
+            <a href="..">VỀ CHÚNG TÔI</a>
+            <a href="#">SẢN PHẨM</a>
             <a href="#">NHÂN VẬT</a>
             <a href="#">TƯ LIỆU</a>
-            <a href="./html/advise.html">TƯ VẤN</a>
+            <a href="advise.html">TƯ VẤN</a>
         </div>
     </nav>
-    <div class="container-fluid p-0 m-0">
-        <!-- Hero Section -->
-        <section class="hero-section m-0">
-            <div id="heroCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <h1>BỘ THẺ BÀI</h1>
-                        <p>LẤY CẢM HỨNG TỪ TRÒ CHƠI DÂN GIAN CỦA NGƯỜI VIỆT NAM...</p>
-                        <button class="btn-customer-dark">MUA NGAY</button>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
-                    <i class="fas fa-chevron-left"></i>
-                </a>
-                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
-                    <i class="fas fa-chevron-right"></i>
-                </a>
-                <ol class="carousel-indicators">
-                    <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#heroCarousel" data-slide-to="1"></li>
-                    <li data-target="#heroCarousel" data-slide-to="2"></li>
-                    <li data-target="#heroCarousel" data-slide-to="3"></li>
-                </ol>
-            </div>
-        </section>
-    </div>
     <!-- Main Content -->
     <main class="container">
         <!-- About Us Section -->
-        <section class="about-section">
-            <h2>VỀ CHÚNG TÔI</h2>
-            <div class="content row mt-4">
-                <div class="col-md-6">
-                    <h3>LẠC LÀ AI?</h3>
-                    <p>OVER 1.7 MILLION GARMENTS SAVED FROM LANDFILLS</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Lorem ipsum dolor sit amet</li>
-                    </ul>
-                    <button class="btn-customer-dark">Read the Do Well report</button>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-12">
+                <img alt="Main product image" class="main-image" height="400" src="https://placehold.co/1200x400"
+                    width="100%" />
+            </div>
+        </div>
+        <div class="section-title">
+            SẢN PHẨM
+        </div>
+        <div class="row product-card">
+            <div class="col-md-6">
+                <img alt="Product image 1" class="img-fluid" height="200" src="https://placehold.co/300x200"
+                    width="300" />
+            </div>
+            <div class="col-md-6 product-info">
+                <h5>
+                    BỘ TRÒ CHƠI CƯỚP CỜ THỜI NHÀ TRẦN
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                </p>
+                <div class="rating">
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
                 </div>
-                <div class="col-md-6">
-                    <img src="https://storage.googleapis.com/a1aa/image/S42bkc5cWR6ZHFbTx8MhDVkaO4jn2Qz5VHezj8e4MTcfeXnPB.jpg"
-                        alt="About Us Image" class="img-fluid">
+                <div class="d-flex justify-content-center gap-1">
+                    <button class="btn btn-dark btn-sm me-2">
+                        MUA NGAY
+                    </button>
+                    <button class="btn btn-outline-dark btn-sm">
+                        <i class="fas fa-shopping-cart">
+                        </i>
+                        THÊM VÀO GIỎ HÀNG
+                    </button>
+                </div>
+                <div class="mt-2">
+                    <button class="btn btn-outline-dark btn-sm">
+                        XEM CHI TIẾT
+                    </button>
                 </div>
             </div>
-        </section>
-        <section class="bg-white text-black">
-            <div class="container py-4">
-                <!-- Section 1 -->
-                <div class="row mb-8 align-items-center">
-                    <div class="col-md-6 mb-4 mb-md-0">
-                        <img src="https://placehold.co/600x400" alt="Placeholder image" class="img-fluid">
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="text-2xl font-weight-bold mb-4">MỤC ĐÍCH CỦA CHÚNG TÔI</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit
-                            in voluptate velit</p>
-                        <button class="btn-customer-dark">VIEW MORE</button>
-                    </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row product-card">
+            <div class="col-md-6 order-md-2">
+                <img alt="Product image 2" class="img-fluid" height="200" src="https://placehold.co/300x200"
+                    width="300" />
+            </div>
+            <div class="col-md-6 product-info order-md-1">
+                <h5>
+                    BỘ TRÒ CHƠI CƯỚP CỜ THỜI NHÀ TRẦN
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.
+                </p>
+                <div class="rating">
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
+                    <i class="fas fa-star">
+                    </i>
                 </div>
-                <!-- Section 2 -->
-                <div class="text-center mb-8">
-                    <h2 class="text-2xl font-weight-bold mb-4 mt-4">THAM VỌNG CỦA LẠC</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore ma Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris
-                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                    </p>
-                    <div class="w-100">
-                        <img src="https://placehold.co/800x400" alt="Placeholder image" class="img-fluid">
-                    </div>
+                <div class="d-flex justify-content-center gap-1">
+                    <button class="btn btn-dark btn-sm me-2">
+                        MUA NGAY
+                    </button>
+                    <button class="btn btn-outline-dark btn-sm">
+                        <i class="fas fa-shopping-cart">
+                        </i>
+                        THÊM VÀO GIỎ HÀNG
+                    </button>
+                </div>
+                <div class="mt-2">
+                    <button class="btn btn-outline-dark btn-sm">
+                        XEM CHI TIẾT
+                    </button>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <div class="footer">
