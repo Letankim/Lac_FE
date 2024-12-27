@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <header class="header d-flex justify-content-between align-items-center">
+        <div class="logo">
+            <img src="https://storage.googleapis.com/a1aa/image/LraHo78Dfp2zWaEsfQVoe093j5fQhntLN11leBvfgfyVwf15TA.jpg"
+                alt="Logo">
+        </div>
+        <div class="header-content">
+            <div class="top-bar">
+                NGƯỜI VIỆT NAM QUA TỪNG TRANG SỬ
+            </div>
+            <div class="bottom-bars d-flex justify-content-right">
+                <div class="search-bar d-flex ">
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="account-cart d-flex align-items-center">
+                    <a href="#"><i class="fas fa-user"></i> Tài khoản</a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div class="container d-flex justify-content-center">
+            <a href="..">VỀ CHÚNG TÔI</a>
+            <a href="./products.html">SẢN PHẨM</a>
+            <a href="#">NHÂN VẬT</a>
+            <a href="#">TƯ LIỆU</a>
+            <a href="./advise.html">TƯ VẤN</a>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="container">
+        <div class="login-container">
+            <h1>Đăng Kí</h1>
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="phone-tab" data-bs-toggle="tab" data-bs-target="#phone"
+                        type="button" role="tab" aria-controls="phone" aria-selected="true">Điện thoại</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="email-tab" data-bs-toggle="tab" data-bs-target="#email" type="button"
+                        role="tab" aria-controls="email" aria-selected="false">Email</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="phone-input" role="tabpanel" aria-labelledby="phone-tab">
+                    <input type="text" class="form-control" placeholder="Email...">
+                </div>
+                <div class="tab-pane fade show active" id="phone-input" role="tabpanel" aria-labelledby="phone-tab">
+                    <input type="text" class="form-control" placeholder="Số điện thoại...">
+                </div>
+                <div class="tab-pane fade" id="email-input" role="tabpanel" aria-labelledby="email-tab">
+                    <input type="email" class="form-control" placeholder="Email...">
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Mật khẩu...">
+                <span class="input-group-text" id="togglePassword">
+                    <i class="fas fa-eye"></i>
+                </span>
+            </div>
+            <div class="input-group mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Xác nhận mật khẩu...">
+                <span class="input-group-text" id="togglePassword">
+                    <i class="fas fa-eye"></i>
+                </span>
+            </div>
+            <button class="btn">Đăng Nhập</button>
+            <div class="d-flex justify-content-between mt-2">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Ghi nhớ mật khẩu</label>
+                </div>
+                <a href="#" class="forgot-password">Quên mật khẩu?</a>
+            </div>
+            <div class="divider">Hoặc</div>
+            <div class="social-login">
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="google"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <img src="https://placehold.co/100x100" alt="Company Logo">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in.</p>
+                        <h5>THEO DÕI CHÚNG TÔI</h5>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-shopee"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="contact-info">
+                            <h5>Thông tin liên hệ</h5>
+                            <p><i class="fas fa-map-marker-alt icon"></i> Hệ thống chi nhánh</p>
+                            <p><i class="fas fa-map-marker-alt icon"></i> Trụ sở chính</p>
+                            <p><i class="fas fa-map-marker-alt icon"></i> Địa chỉ kinh doanh</p>
+                            <p>Số 10 ngách 19/9 phố Phú Viên, phường Bồ Đề, quận Long Biên, Hà Nội</p>
+                            <p><i class="fas fa-phone icon"></i> Điện thoại: 0292.324.0266</p>
+                            <p><i class="fas fa-envelope icon"></i> Email: thuy.do@theocean.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="company-policy">
+                            <h5>Chính sách công ty</h5>
+                            <p>Chính sách bảo mật</p>
+                            <p>Chính sách đổi trả hàng hóa</p>
+                            <p>Chính sách vận chuyển</p>
+                            <p>Chính sách bảo hành</p>
+                            <p>Hình thức thanh toán</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="certificates">
+                            <img src="https://placehold.co/200x100" alt="Certificate 1">
+                            <img src="https://placehold.co/200x100" alt="Certificate 2">
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <p>Việc sử dụng trang web này cho thấy bạn tuân thủ chính sách quyền riêng tư, điều khoản và điều
+                        kiện của chúng tôi</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const togglePassword = document.querySelector('#togglePassword');
+        const passwordInput = document.querySelector('#password');
+
+        togglePassword.addEventListener('click', () => {
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+            togglePassword.innerHTML = type === 'password' ? '<i class="fas fa-eye"></i>' : '<i class="fas fa-eye-slash"></i>';
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const phoneTab = document.getElementById('phone-tab');
+            const emailTab = document.getElementById('email-tab');
+            const phoneInput = document.getElementById('phone-input');
+            const emailInput = document.getElementById('email-input');
+            const phoneContent = new bootstrap.Tab(phoneTab);
+            const emailContent = new bootstrap.Tab(emailTab);
+
+
+            phoneTab.addEventListener('click', function (event) {
+                event.preventDefault();
+                phoneContent.show();
+                emailInput.classList.remove("show");
+                emailInput.classList.remove("active");
+                phoneInput.classList.add("show");
+                phoneInput.classList.add("active");
+                emailInput.querySelector("input").value = "";
+            });
+
+            emailTab.addEventListener('click', function (event) {
+                event.preventDefault();
+                emailContent.show();
+                phoneInput.classList.remove("show");
+                phoneInput.classList.remove("active");
+                phoneInput.querySelector("input").value = "";
+                emailInput.classList.add("show");
+                emailInput.classList.add("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
